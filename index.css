@@ -1,0 +1,70 @@
+.swipe {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.swipe__pic {
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+}
+
+.swipe__pic-block {
+    width: 200px;
+    height: 100px;
+}
+
+.swipe__pic_1 {
+    background-color: red;
+}
+
+.swipe__pic_2 {
+    background-color: orange;
+}
+
+.swipe__pic_3 {
+    background-color: yellow;
+}
+
+.swipe__pic_4 {
+    background-color: green;
+}
+
+.swipe__arrow-left {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+}
+
+.swipe__arrow-left::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-left: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+    -webkit-transform-origin: center;
+    -webkit-transform: rotate(45deg);
+}
+
+.swipe__arrow-right {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+
+.swipe__arrow-right::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    -webkit-transform-origin: center;
+    -webkit-transform: rotate(45deg);
+}
