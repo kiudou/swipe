@@ -65,3 +65,36 @@
     -webkit-transform-origin: center;
     -webkit-transform: rotate(45deg);
 }
+
+.swipe__button {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.swipe__button-item {
+    width: 15px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 5px;
+    line-height: 15px;
+    margin: 0 2px;
+}
+
+.swipe__button-item_seleted {
+    width: 15px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: white;
+    text-align: center;
+    font-size: 5px;
+    line-height: 15px;
+    margin: 0 2px;
+    color: red;
+}
