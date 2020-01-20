@@ -8,10 +8,7 @@
 .swipe__pic {
     display: -webkit-flex;
     flex-flow: row nowrap;
-    width: 800px;
-    height: 100px;
     position: absolute;
-    left: 0;
 }
 
 .swipe__pic-block {
