@@ -4,8 +4,8 @@ let arrowLeft = document.querySelector('.swipe__arrow-left');
 let arrowRight = document.querySelector('.swipe__arrow-right');
 let swipeButton = document.querySelector('.swipe__button');
 let swipeButtonChildNode = swipeButton.children;
-let curSwipeButton;
-let timePlay;
+let curSwipeButton; // 当前视窗的显示图片的按钮
+let timePlay; // 时间控制器
 
 // 控制方向
 const minus = -1;
